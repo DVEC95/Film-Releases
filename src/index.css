@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+}
+
+.film-releases {
+  border-style: solid;
+  border-width: 2px;
+  margin: 75px;
+  margin-top: 25px;
+  padding-bottom: 40px;
+  background-color: lightblue;
+}
+
+.title-heading {
+  margin-top: 1px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px
+}
+
+.film-titles {
+  margin: 20px;
+  text-align: left;
+
+}
+
+.film-title {
+  padding: 2px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.more-releases {
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  display: inline;
+  background-color: deepskyblue;
 }
